@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINTPAD</title>
+    <!--Fav Icon-->
+    <link rel="icon" type="image/x-icon" href="assets/images/main-logo.png">
+  
+    <!--Asssential CSS File-->
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/erorpage.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top wow animate__fadeInDown" data-wow-duration="3s">
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">roadmap</a></li>
+            <li><a href="#">faq</a></li>
+          </ul>
+        </div>
+        <div class="header-button">
+          <a href="#">launchpad</a>
+          <a href="#">litepaper</a>
+        </div>
+        <!--Mobile Nav-->
+        <div class="mobile-bar" id="micon"> </div>
+        <div class="mobile-nav" id="mbox">
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">roadmap</a></li>
+            <li><a href="#">faq</a></li>
+          </ul>
+        </div>
+        
+        <script>
+          const micon = document.getElementById('micon');
+          const mbox = document.getElementById('mbox');
+
+          document.onclick =function(e){
+            if(e.target.id !== 'mbox' && e.target.id !=='micon')
+            {
+              micon.classList.remove('active');
+              mbox.classList.remove('active');
+            }
+          }
+
+          micon.onclick = function(){
+            micon.classList.toggle('active');
+            mbox.classList.toggle('active');
+          }
+        </script>
+      </div>
+    </div>
+    <!--hero section start-->
+   
+  </header>
+  <!--Header Section End-->
+
+
+  <!--eror page-->
+
+  <section class="error-page">
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="top-area">
+          <div class="title">
+            <p><strong>Error</strong></p>
+          </div>
+          <ul>
+            <li>
+              We were not able to detect <strong>MetaMask</strong> . We value <strong>privacy and security</strong>  a lot so we limit the wallet options on the DAPP.
+            </li>
+            <li>But don't worry! 😃 You can always interact with the smart-contract through Etherscan and <strong> we do our best to provide you with the best user experience possible</strong>, even from there.</li>
+            <li>You can also get your <strong>Whitelist Proof</strong>  manually, using the tool below.
+
+            </li>
+          </ul>
+          <a href="#">Close </a>
+        </div>
+
+        <div class="bottom-area">
+          <a href="#">connect wallet</a>
+          <hr>
+          <p>Hey, looking for a <strong>super-safe experience</strong> ? 😃
+            You can interact with the smart-contract <strong>directly</strong>  through <strong> Etherscan</strong>, without even connecting your wallet to this DAPP! 🚀</p>
+            <p class="keep-safe">Keep safe! ❤️ </p>
+            <h6 class="text-justify">Whitelist Proof</h6>
+            <p>Anyone can generate the proof using any public address in the list, but <strong>only the owner of that address</strong>  will be able to make a successful transaction by using it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="top-area">
+        <div class="title">
+          <h4>A REVENUE SHARING <br> MULTI-CHAIN NFT <br> LAUNCHPAD</h4>
+          <h2> want to <br> LAUNCH NFT <br> PROJECT WITH US?</h2>
+        </div>
+        <div class="contact-area">
+          <h5>contact us</h5>
+          <a href="#">james, carti</a>
+          <a href="#">contact@cleanheart</a>
+        </div>
+      </div>
+     
+      <div class="bottom-area">
+        <div class="text">
+          <h5>© 2022 <span class="gradint-text">Mintpad</span> , All Rights Reserved</h5>
+        </div>
+        <div class="icon-wrapper">
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-reddit"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer Section End-->
+
+
+
+  <script src="assets/js/JQuery.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="assets/js/all.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

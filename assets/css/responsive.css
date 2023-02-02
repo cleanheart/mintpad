@@ -1,0 +1,367 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media(min-width:1400px){
+  .about-area .content-wrapper .group-1 .img-wrapper img{
+    margin-left: -58px;
+  }
+}
+@media(max-width:1399.90px){
+  .roadmap-area .content-wrapper .inner .phase-box::before{
+    max-width: 231px;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::before{
+    width: 217px;
+    left:-129%;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box::after{
+    left: 235%;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::after{
+    left:-136% ;
+  }
+
+
+
+}
+
+
+@media(max-width:1199.90px){
+  .tokenomics-area .content-wrapper .token-box ul li .box-s{
+   min-width: 127px;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box::before{
+    max-width: 185px;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::before{
+    width: 172px;
+    left:-102%;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box::after{
+    left: 208%;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::after{
+    left:-108% ;
+  }
+}
+
+
+@media(max-width:991.90px){
+  header .header-nav{
+    display: none;
+  }
+  header .header-button{
+    display: none;
+  }
+  /*****Hero Section*****/
+  header .hero-area .hero-title{
+    text-align: center;
+  }
+  header .hero-area .hero-description p{
+    text-align: center;
+  }
+  header .header-top .mobile-bar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /*****Hero Section******/
+  header .hero-area .content-wrapper{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  header .hero-area .content-wrapper .title-wrapper{
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+  }
+  header .hero-area .main-title{
+    max-width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  header .hero-area .hero-description{
+    width: 100%;
+    display: inline-block;
+  }
+  header .hero-area .hero-description p{
+    width: 100%;
+    display: inline-block;
+  }
+  header .hero-area .img-wrapper{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .hero-area .img-wrapper img{
+    max-width: 250%;
+  }
+  /******About-area*****/
+  .about-area .content-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-area .content-wrapper .group-1{
+    max-width: 100%;
+    position: relative;
+  }
+  .about-area .content-wrapper .group-1 .title-wrapper{
+    max-width: 70%;
+  }
+
+  .about-area .content-wrapper .about-description{
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .about-area .content-wrapper .group-1 .img-wrapper{
+    position: absolute;
+    left: 45%;
+    top: 1%;
+  }
+  .about-area .content-wrapper .group-1 .img-wrapper img{
+    max-width: 150%;
+    margin-left: 0px;
+  }
+  /*******MintPass Section*********/
+  .mintpass-area{
+    padding-top: 10px;
+  }
+
+  .mintpass-area .content-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mintpass-area .content-wrapper #pietest{
+    margin-bottom: 25px;
+  }
+  .mintpass-area .content-wrapper .img-wrapper{
+    max-width:100%;
+    padding-right: 0px;
+  }
+  .mintpass-area .content-wrapper .description-wrapper{
+    max-width: 100%;
+    padding-left: 0px;
+  }
+  /*****Benefits Section*****/
+  .benefit-area .content-wrapper{
+    padding: 25px;
+  }
+  .benefit-area .content-wrapper .inner-wrapper .inner{
+    max-width: 49%;
+  }
+
+  /*******Tokenomics Section******/
+  .tokenomics-area .content-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tokenomics-area .content-wrapper .token-list{
+    max-width: 100%;
+  }
+  .tokenomics-area .content-wrapper .token-box{
+    max-width: 100%;
+  }
+  .tokenomics-area .content-wrapper .token-box .title {
+    margin-bottom: 25px;
+    margin-top: 35px;
+  }
+
+  /*******RoadMap Section *******/
+  .roadmap-area .content-wrapper .inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .roadmap-area .content-wrapper .inner-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .roadmap-area .content-wrapper .inner::before{
+    display: none;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box{
+    margin-bottom: 25px;
+  }
+
+  .roadmap-area .content-wrapper .inner .phase-box::before{
+    display: none;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box::after{
+    display: none;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::before{
+    display: none;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box-2::after{
+    display: none;
+  }
+  .roadmap-area .content-wrapper .inner .phase-box{
+    width: 100%;
+  }
+  .roadmap-area .content-wrapper .inner .phase-list ul {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .roadmap-area .content-wrapper .inner .phase-list ul li{
+    margin-bottom: 15px;
+  }
+  .roadmap-area .content-wrapper .inner-2 ul li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .faq-area .content-wrapper .inner{
+    width: 100%;
+  }
+  footer .meddle-area .footer-widget{
+    max-width: 50%;
+  }
+
+  /****wallet page*****/
+  .error-page .content-wrapper .top-area{
+    max-width: 95%;
+  }
+  .error-page .content-wrapper .bottom-area{
+    max-width: 95%;
+  }
+
+
+
+
+  
+
+
+
+
+  
+}
+
+@media(max-width:767.90px){
+  .about-area .content-wrapper .group-1 .title-wrapper {
+    max-width: 100%;
+  }
+  .benefit-area .content-wrapper .title h2{
+    font-size: 40px;
+  }
+  footer .bottom-area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .bottom-area .text{
+    margin-bottom: 25px;
+  }
+
+}
+
+@media(max-width:575.90px){
+  header .hero-area .main-title h2{
+    font-size: 40px;
+    line-height: 49px;
+  }
+  header .hero-area .hero-description p{
+    font-size: 18px;
+  }
+  .about-area .content-wrapper .title-wrapper h2{
+    font-size: 40px;
+  }
+  .mintpass-area .content-wrapper .description-wrapper .title h2{
+    font-size: 40px;
+  }
+  .benefit-area .content-wrapper{
+    padding: 50px;
+  }
+  .benefit-area .content-wrapper .inner-wrapper .inner{
+    max-width: 95%;
+  }
+  .benefit-area .content-wrapper .title h2{
+    font-size: 28px;
+  }
+  .tokenomics-area .title h2 {
+    font-size: 40px;
+  }
+  .roadmap-area .title h2 {
+    font-size: 40px;
+  } 
+  .tokenomics-area .content-wrapper .token-box ul li{
+    width: 100%;
+    text-align: right;
+    margin-right: 30%;
+  }
+  .partner-area .title h2{
+    font-size: 40px;
+  }
+  footer .top-area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .top-area .title{
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+}
+@media(max-width:440px){
+  .about-area .content-wrapper .title-wrapper h2{
+    font-size: 34px;
+  }
+  .benefit-area .content-wrapper{
+    padding: 25px;
+  }
+}

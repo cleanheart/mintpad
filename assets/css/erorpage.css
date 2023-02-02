@@ -1,0 +1,113 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+header{
+  padding-bottom: 25px;
+}
+.error-page{
+  padding: 50px 0;
+}
+.error-page .content-wrapper .top-area{
+  --tw-text-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+    background-color: rgb(254 242 242/var(--tw-bg-opacity));
+    border-color: rgb(254 202 202/var(--tw-border-opacity));
+    border-radius: 0.5rem;
+    border-width: 1px;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+            box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    color: rgb(239 68 68/var(--tw-text-opacity));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 0.75rem;
+    max-width: 45%;
+    margin: 0 auto;
+}
+.error-page .content-wrapper .top-area ul{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.error-page .content-wrapper .top-area ul li{
+  margin-bottom: 20px;
+}
+.error-page .content-wrapper .top-area a{
+  display:block;
+  text-align: right;
+  padding: 7px 15px;
+  color:#fff;
+  text-align: right;
+  width: 65px;
+  border-radius: 7px;
+  background-color: red;
+}
+.error-page .content-wrapper .bottom-area{
+  --tw-text-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    border-color: rgb(254 202 202/var(--tw-border-opacity));
+    border-radius: 0.5rem;
+    border-width: 1px;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+            box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    color: rgb(239 68 68/var(--tw-text-opacity));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 15px;
+    max-width: 45%;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: rgba(17, 17, 17,0.70);
+}
+.error-page .content-wrapper .bottom-area a{
+  display: inline-block;
+  text-align: center;
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-border-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  background-color: rgb(217 70 239/var(--tw-bg-opacity));
+  border-color: rgb(99 102 241/var(--tw-border-opacity));
+  border-radius: 9999px;
+  border-width: 1px;
+  -webkit-box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+          box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+ 
+}
+.error-page .content-wrapper .bottom-area p.keep-safe{
+  margin: 20px 0;
+}
+.error-page .content-wrapper .bottom-area h6{
+  text-align: center;
+  font-weight: 700;
+}
