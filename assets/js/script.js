@@ -138,12 +138,15 @@ $(function(){
         indexLabel: "{label} {y}",
         dataPoints: [
           { label: "Development",  y: 10, legendText: "Public Round"}, 
-          { label: "Presale",    y: 35, legendText: "Locked"  }, 
-          { label: "Marketing",    y: 1, legendText: "Locked"  },
-          { label: "partners",  y: 5, legendText: "Public Round"}, 
-          { label: "cex",    y: 11, legendText: "Locked"  }, 
-          { label: "team",    y: 6, legendText: "Locked"  },
-          { label: "Liqudity(PCS)",    y: 20, legendText: "Locked"  },
+          { label: "Marketing",    y: 10, legendText: "Locked"  }, 
+          { label: "Partnership",    y: 5, legendText: "Locked"  },
+          { label: "CEX",  y: 10, legendText: "Public Round"}, 
+          { label: "Liquid",    y: 15, legendText: "Locked"  }, 
+          { label: "Migration",    y: 10, legendText: "Locked"  },
+          { label: "Team",    y: 15, legendText: "Locked"  },
+          { label: "Staking & Farming",    y: 10, legendText: "Locked"  },
+          { label: "Airdrop & Bounty",    y: 5, legendText: "Locked"  },
+          { label: "NFT Reward",    y: 10, legendText: "Locked"  },
               
         ]
       }]

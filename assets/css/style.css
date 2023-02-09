@@ -1,16 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
@@ -18,7 +6,8 @@
   --primary-font:'Montserrat', sans-serif;
   --secondery-font: 'Itim', cursive; 
   --gradient-1:linear-gradient(98.23deg, rgb(0, 244, 255) 0.57%, rgb(254, 2, 230) 100%) text;
-  --bs-blue: #0d6efd;
+  --gradient-2:linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  --bs-blue: #0d6efd; 
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -189,8 +178,8 @@ img{
 /*Complite Design*/
 .gradint-text{
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -267,8 +256,8 @@ header .header-nav ul li a{
 }
 header .header-nav ul li a:hover{
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -279,8 +268,8 @@ header .header-nav ul li a::before{
   width: 10%;
   height: 2px;
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   left: 0;
   top: 100%;
@@ -300,8 +289,8 @@ header .header-button a{
   font-weight: 700;
   font-family: var(--secondery-font);
   background: -o-linear-gradient(left, #FE7800 0%, #9B00E0 50%, #FE7800 100%, #9B00E0 110%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   border-radius: 5px;
   background-size: 200% 100%;
@@ -314,8 +303,8 @@ header .header-button a:first-child{
   margin-right: 10px;
 }
 header .header-button a:last-child{
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background-size: 200% 100%;
 }
@@ -387,8 +376,8 @@ header .header-top .mobile-bar::before{
   position: absolute;
   content: "";
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   width: 25px;
   height: 3px;
@@ -404,8 +393,8 @@ header .header-top .mobile-bar::after{
   position: absolute;
   content: "";
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   width: 25px;
   height: 3px;
@@ -453,8 +442,8 @@ header .hero-area .main-title h2{
   display: inline-block;
 }
 header .hero-area .title-wrapper .main-title .color-title{
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -555,8 +544,8 @@ header .hero-area .img-wrapper img{
   line-height: 30px;
   margin-bottom: 8px;
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -578,8 +567,8 @@ header .hero-area .img-wrapper img{
   border-image-slice: 2;
   border-width: 3px;
   border-image-source:linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -593,6 +582,8 @@ header .hero-area .img-wrapper img{
 
 .about-area .content-wrapper .about-description a:hover{
   -webkit-text-fill-color: initial;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: -o-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
@@ -676,8 +667,8 @@ rect.highcharts-background {
   border-radius: 50%;
   border: 1px solid  hsla(22, 90%, 57%, 1);
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -785,8 +776,8 @@ rect.highcharts-background {
   line-height: 30px;
   margin-bottom: 8px;
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -836,9 +827,8 @@ rect.highcharts-background {
   border-image-slice: 2;
   border-width: 3px;
   border-image-source:linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  background: -o-linear-gradient(left,  hsla(22, 90%, 57%, 1), #FE02E6);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -849,168 +839,339 @@ rect.highcharts-background {
 
 .tokenomics-area .content-wrapper .token-box ul li .box:hover{
   -webkit-text-fill-color: initial;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: -o-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
 }
+.tokenomics-area .tokenomics-banner .token-list{
+  margin-top: 25px;
+}
+.tokenomics-area .tokenomics-banner .token-list ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack:justify;
+      -ms-flex-pack:justify;
+          justify-content:space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.tokenomics-area .tokenomics-banner .token-list ul li{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  -webkit-box-align: center; 
+      -ms-flex-align: center; 
+          align-items: center;
+  width: 30%;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 45px;
+  text-align: right;
+  display: block;
+}
+.tokenomics-area .tokenomics-banner .token-list ul li .text{
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  -webkit-background-clip:text;
+
+}
+.tokenomics-area .tokenomics-banner .token-list ul li .percent{
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  -webkit-background-clip:text;
+  border:3px solid #f4772f;
+  width: 100px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align:center;
+}
+
 /******Tokenomics Section End*****/
 
 /***********RoadMap SEction Start***********/
-.roadmap-area{
+.roadmap-2{
   padding: 50px 0;
   background: url(../images/roadmap-baner.png);
   background-size: cover;
 }
-.roadmap-area .title{
+.roadmap-2 .title{
   margin-bottom: 75px;
 }
-.roadmap-area .title h2{
+.roadmap-2 .title h2{
   text-align: center;
 }
-.roadmap-area .content-wrapper .inner{
+
+/******Roadmap-2*****/
+.roadmap-2 .list-box ul{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.roadmap-area .content-wrapper .inner::before{
+.roadmap-2 .list-box{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position:relative;
+  z-index: 5;
+}
+.roadmap-2 .list-box::after{
   position:absolute;
   content:"";
   width: 5px;
   height: 100%;
-  background: -o-linear-gradient(left,  hsla(22, 90%, 57%, 1) 0%, #FE02E6 100%);
-  background: -webkit-gradient(linear,  left top, right top,  from(hsla(22, 90%, 57%, 1)), to(#FE02E6));
-  background: linear-gradient(90deg,  hsla(22, 90%, 57%, 1) 0%, #FE02E6 100%);
-  left: 50%;
   top: 0;
-  border-radius: 5px;
-  z-index: 3;
-}
-.roadmap-area .content-wrapper .inner .phase-box{
-  padding: 23px 19px;
-  border-radius: 5px;
-  background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
-  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  text-align: center;
-  max-height: 115px;
-  position: relative;
-  z-index: 3;
-}
-.roadmap-area .content-wrapper .inner .phase-box-2{
-  position: relative;
-  z-index: 3;
-}
-
-.roadmap-area .content-wrapper .inner .phase-box::before{
-  position: absolute;
-  content:"";
-  width:275px;
-  height: 5px;
-  top: 50%;
-  left: 100%;
-  overflow: hidden;
-  background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
-  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-}
-.roadmap-area .content-wrapper .inner .phase-box::after{
-  position: absolute;
-  content:"";
-  width: 20px;
-  height:20px;
-  top: 52%;
-  left: 263%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border-radius: 50%;
-  background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
-  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
-}
-.roadmap-area .content-wrapper .inner .phase-box-2::before{
-  position: absolute;
-  content:"";
-  width:264px;
-  height: 5px;
-  top: 50%;
-  left: -156%;
-  background: -o-linear-gradient( 100%,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 98.23deg );
-  background: -webkit-gradient( linear,  left top, left bottom,  from(100%),  color-stop(0.57%, hsla(22, 90%, 57%, 1)), color-stop(98.23deg, #FE02E6) );
-  background: linear-gradient( 100%,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 98.23deg );
-  z-index: 1;
-}
-.roadmap-area .content-wrapper .inner .phase-box-2::after{
-  position: absolute;
-  content:"";
-  width: 20px;
-  height:20px;
-  top: 52%;
-  left: -163%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border-radius: 50%;
   z-index: 5;
-  background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
+  border-radius:5px;
+  left: 217%;
   background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
 }
-.roadmap-area .content-wrapper .inner .phase-box h5{
-  color: #fff;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 0px;
-
-}
-.roadmap-area .content-wrapper .inner .phase-box p{
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-}
-.roadmap-area .content-wrapper .inner .phase-list ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-      -ms-flex-direction:column;
-          flex-direction:column;
-}
-.roadmap-area .content-wrapper .inner .list-2 ul li{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-.roadmap-area .content-wrapper .inner .phase-list ul li{
+.roadmap-2 .list-box ul li{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
-  color: #fff;
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  line-height: 15px;
+  text-align: right;
+  display: inline-block;
+  margin-bottom: 15px;
+  position:relative;
 }
-.roadmap-area .content-wrapper .inner .phase-list ul li .icon{
-  margin: 10px;
+.roadmap-2 .list-box ul li::after{
+  font-family: "FontAwesome";
+  position: absolute; 
+  font-size: 15px;
+  content: "\f00c";
+  right: 103%;
+  top: 2px;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  -webkit-background-clip: text;
+  display: none;
+}
+.roadmap-2 .list-box ul li::before{
+  position: absolute;
+  content:"";
+  width:117%;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  left: 100%;
+  top: 50%;
+
+}
+.roadmap-2 .list-box ul li .text{
+  -webkit-text-fill-color: transparent;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  -webkit-background-clip: text;
+}
+.roadmap-2 .main-box{
+  width: 225px;
+  z-index:9;
+  position: relative;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 20px 10px ;
+  text-align: center;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+
+}
+.roadmap-2 .main-box::after{
+  position:absolute;
+  content:"";
+  width:310px;
+  z-index:3;
+  height:5px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  top:50%;
+  right: 99%;
+}
+.roadmap-2 .main-box::before{
+  position:absolute;
+  content:"";
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  top: 26px;
+  right: 230%;
+  z-index:9;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+
+}
+.roadmap-2 .main-box h5{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/****list-box-2****/
+.roadmap-2 .main-box-2{
+  margin-left: 4%;
+  position: relative;
+}
+.roadmap-2 .main-box::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 26px;
+  right: -324px;
+  z-index: 9;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+}
+.roadmap-2 .main-box-2::after {
+  position: absolute;
+  content: "";
+  width: 310px;
+  z-index: 3;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  top: 50%;
+  right: -309px;
+}
+.roadmap-2 .mbox-2{
+  position: relative;
+}
+.roadmap-2 .mbox-2::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 26px;
+  right: -324px;
+  z-index: 9;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+}
+.roadmap-2 .mbox-2::after {
+  position: absolute;
+  content: "";
+  width: 315px;
+  z-index: 3;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  top: 50%;
+  right: -314px;
+}
+.roadmap-2 .list-box-2 {
+  margin-left: 31%;
+  display: inline-block;
+  position: relative;
+  z-index: 5;
+}
+.roadmap-2 .list-box-2 ul li::before {
+  position: absolute;
+  content: "";
+  width: 190%;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  left: -296px;
+  top: 50%;
+}
+.roadmap-2 .lb-1 ul li{
+  position: relative;
+}
+.roadmap-2 .lb-1 ul li::before {
+  position: absolute;
+  content: "";
+  width: 190%;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  left: -296px;
+  top: 50%;
+}
+.roadmap-2 .list-box-2::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 100%;
+  top: 0;
+  z-index: 5;
+  border-radius: 5px;
+  left: -300px;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+}
+.roadmap-2 .list-box-2 ul li{
+  text-align: left;
+}
+.roadmap-2 .mainbox-2{
+  position: relative;
+}
+.roadmap-2 .mainbox-2::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 26px;
+  right: 517px;
+  z-index: 9;
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+  background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+}
+.roadmap-2 .listbox-2{
+  margin-left: 164px;
+}
+.roadmap-2 .main-box-4{
+  position: relative;
+}
+.roadmap-2 .main-box-4::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 26px;
+    left: -321px;
+    z-index: 9;
+    background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
+    background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+    background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
 }
 /***********RoadMap SEction End***********/
 
@@ -1083,7 +1244,7 @@ footer{
   background: url(../images/footer_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0;
+  padding: 15px;
 }
 footer .top-area{
   display: -webkit-box;
@@ -1099,8 +1260,8 @@ footer .top-area .title h4{
   line-height: 24px;
   letter-spacing: 0.365em;
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1192,7 +1353,8 @@ display: flex;
 -webkit-box-align:center;
     -ms-flex-align:center;
         align-items:center;
-margin-top: 50px;
+/* margin-top: 50px; */
+padding: 0 15px;
 }
 footer .bottom-area .text h5{
   font-weight: 400;
@@ -1224,8 +1386,8 @@ footer .bottom-area .icon-wrapper a{
 footer .bottom-area .icon-wrapper a:hover{
   color: #fff;
   background: -o-linear-gradient(351.77deg,  hsla(22, 90%, 57%, 1) 0.57%, #FE02E6 100%);
-  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: -o-linear-gradient(left, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(hsla(39, 100%, 77%, 1)), to(hsla(22, 90%, 57%, 1)));
   background: linear-gradient(90deg, hsla(39, 100%, 77%, 1) 0%, hsla(22, 90%, 57%, 1) 100%);
 }
 /*****Footer Section End*****/
